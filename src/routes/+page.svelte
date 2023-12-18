@@ -86,7 +86,7 @@
 	onMount(() => {
 		FFmpegLoader();
 	});
-	$: console.log('current state :', state);
+	// $: state;
 </script>
 
 <svelte:head>
